@@ -10,11 +10,11 @@ load_dotenv()
 
 # Берём данные дл наших авторизаций
 
-TOKEN = 'MTMwNzY4NjY5ODE3MTQ5ODU5Nw.GFTVtP.PQn1drTZeR09R9LN00_ibflfRyNL_X36XMZWa8' # Туть токен дискорд ботяры
-EMAIL = os.getenv('bytespacedev@gmail.com') # Туть почта
-PASSWORD = os.getenv('ByteSpaceOpenSource2024') # Туть пароль
-IMAP_SERVER = os.getenv('imap.gamil.com')  # Туть сервер имапа
-CHANNEL_ID = str(os.getenv('1307479657125384282'))  # ID канала, куда будет отправляться сообщение
+TOKEN = 'urtoken' # Insert your discord app token
+EMAIL = os.getenv('youremailongmail@gmail.com') # Insert your gmail here
+PASSWORD = os.getenv('Your PaSsWoRd') # Insrt your password here
+IMAP_SERVER = os.getenv('imap.gamil.com')  # imap server there is. touch it should you not
+CHANNEL_ID = str(os.getenv(''))  # Target channel ID
 
 Client = discord.Client(intents = discord.Intents.default() )
 
